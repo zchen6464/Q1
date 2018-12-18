@@ -1,9 +1,10 @@
 package com.company;
 
 public class Appointment {
+    
     public TimeInterval getTime()
     {
-
+        return this.interval;
     }
     public boolean conflictsWith (Appointment other)
     {
