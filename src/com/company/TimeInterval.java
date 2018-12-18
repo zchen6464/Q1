@@ -1,13 +1,14 @@
 package com.company;
 
 public class TimeInterval {
-    private TimeInterval interval;
-
-    public TimeInterval(int time)
+    private int start,end;
+    public TimeInterval(int start, int end)
     {
+        this.start = start;
+        this.end = end;
     }
     public boolean overlapsWith(TimeInterval interval)
     {
-        return (this.interval == interval);
+        return (TimeInterval(this.start,this.end) == interval);
     }
 }
