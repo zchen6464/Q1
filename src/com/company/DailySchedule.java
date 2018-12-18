@@ -36,8 +36,8 @@ public class DailySchedule {
                     return false;
                 }
             }
-            apptList.add(appt);
-            return true;
         }
+        apptList.add(appt);
+        return true;
     }
 }
